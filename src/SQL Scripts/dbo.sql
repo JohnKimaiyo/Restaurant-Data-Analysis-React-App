@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [Rank]
+      ,[Restaurant]
+      ,[Location]
+      ,[Sales]
+      ,[YOY_Sales]
+      ,[Units]
+      ,[YOY_Units]
+      ,[Unit_Volume]
+      ,[Franchising]
+  FROM [Restaurant Data].[dbo].[REstaurant data base0$]
